@@ -1,0 +1,52 @@
+{
+  "id": "d493dcf0-e042-461d-b65c-0f5e9c2b7a0f",
+  "name": "BookVisit.type",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookVisit",
+      "affectedContexts": [
+        {
+          "name": "session-vars",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "60fe1722-25b0-4dd2-b6bb-53e8967129a4",
+          "name": "type_event",
+          "required": false,
+          "dataType": "@Type",
+          "value": "$type_event",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "dd717619-0893-4de4-add0-b4ae9ea1a2d0",
+    "data": [
+      {
+        "text": "Jason",
+        "meta": "@sys.given-name",
+        "alias": "visitor_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c52edd22-8729-4bed-a922-5575820621b3",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "John",
+        "meta": "@sys.given-name",
+        "alias": "visitor_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

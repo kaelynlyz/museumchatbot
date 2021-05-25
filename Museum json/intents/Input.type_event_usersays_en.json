@@ -1,0 +1,74 @@
+[
+  {
+    "id": "68acc6fd-3e78-410b-93da-cd7291fcd58a",
+    "data": [
+      {
+        "text": "I want to see ",
+        "userDefined": false
+      },
+      {
+        "text": "exhibition",
+        "meta": "@Type",
+        "alias": "type_event",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e1f206c9-4aa7-4abd-bd17-639b5cfcb05d",
+    "data": [
+      {
+        "text": "workshop",
+        "meta": "@Type",
+        "alias": "type_event",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb39babd-ffe0-408f-bd22-aa8b9a3d1a43",
+    "data": [
+      {
+        "text": "I want to book for ",
+        "userDefined": false
+      },
+      {
+        "text": "workshop",
+        "meta": "@Type",
+        "alias": "type_event",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb2c26e7-f087-425d-b07a-85e5e631f474",
+    "data": [
+      {
+        "text": "for ",
+        "userDefined": false
+      },
+      {
+        "text": "exhibition",
+        "meta": "@Type",
+        "alias": "type_event",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

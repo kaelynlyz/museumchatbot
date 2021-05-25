@@ -1,0 +1,40 @@
+[
+  {
+    "id": "9f4a150b-4616-4913-9444-8efeb8919dab",
+    "data": [
+      {
+        "text": "book visit ",
+        "userDefined": false
+      },
+      {
+        "text": "next monday",
+        "meta": "@sys.date",
+        "alias": "visit_date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "572d1056-509f-4890-90ae-7fc7a232aa15",
+    "data": [
+      {
+        "text": "I want to book a visit for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date",
+        "alias": "visit_date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

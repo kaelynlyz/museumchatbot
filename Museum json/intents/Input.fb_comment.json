@@ -1,0 +1,53 @@
+{
+  "id": "5efdeeb7-9419-4c82-892f-d5f92a490d8c",
+  "name": "Input.fb_comment",
+  "auto": true,
+  "contexts": [
+    "awaiting_fb_comment"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "saveFeedback",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "09e13bea-5de4-4e4b-bad0-5fb70f831f9e",
+          "name": "fb_comment",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$fb_comment",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "#session-vars.fb_name, thank you for the feedback. We will contact you within 5 working days."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

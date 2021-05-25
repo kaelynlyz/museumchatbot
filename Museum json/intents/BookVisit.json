@@ -1,0 +1,44 @@
+{
+  "id": "0b58bc76-5db8-44b2-b069-ce2d42080c11",
+  "name": "BookVisit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookVisit",
+      "affectedContexts": [
+        {
+          "name": "session-vars",
+          "lifespan": 50
+        },
+        {
+          "name": "awaiting_type_event",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do you want to book for workshop or exhibition?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "dacda29e-eff5-430e-851e-9c285bcc48cb",
+  "name": "Input.visitor_phone",
+  "auto": true,
+  "contexts": [
+    "awaiting_visitor_phone"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Input.visitor_phone",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bae8c22a-a57a-4d60-88cf-c2cc544b1fcb",
+          "name": "visitor_phone",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$visitor_phone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your visit appointment has been made, #session-vars.visitor_name!  You are visiting #session-vars.name_event #session-vars.type_event at #session-vars.visit_date"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

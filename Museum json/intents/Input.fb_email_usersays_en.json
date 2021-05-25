@@ -1,0 +1,36 @@
+[
+  {
+    "id": "17e5f869-84eb-4ad6-86b9-164f3ccb2c86",
+    "data": [
+      {
+        "text": "it is ",
+        "userDefined": false
+      },
+      {
+        "text": "2@kjsf.com",
+        "meta": "@sys.email",
+        "alias": "fb_email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0ef13baf-be92-4feb-a532-0f592cc7b138",
+    "data": [
+      {
+        "text": "k@g.com",
+        "meta": "@sys.email",
+        "alias": "fb_email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

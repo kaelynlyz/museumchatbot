@@ -1,0 +1,57 @@
+{
+  "id": "1498734f-51f6-4bf6-bbe2-bd593ff31dcf",
+  "name": "Input.fb_email",
+  "auto": true,
+  "contexts": [
+    "awaiting_fb_email"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting_fb_comment",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3b4ff139-6a78-44ae-9064-31c9a4d2d160",
+          "name": "fb_email",
+          "required": false,
+          "dataType": "@sys.email",
+          "value": "$fb_email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks! Please leave your feedback here"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

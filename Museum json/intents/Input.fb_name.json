@@ -1,0 +1,57 @@
+{
+  "id": "0efb8f33-e24c-4cd1-89c1-31004bad3d53",
+  "name": "Input.fb_name",
+  "auto": true,
+  "contexts": [
+    "awaiting_fb_name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting_fb_phone",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f3124da2-e84a-4caa-9669-3b550dc356db",
+          "name": "fb_name",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "value": "$fb_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi $fb_name, what\u0027s your phone number?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

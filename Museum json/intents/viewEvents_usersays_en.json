@@ -1,0 +1,80 @@
+[
+  {
+    "id": "051e804f-6835-4d7d-8e3a-ab5f0e8f0041",
+    "data": [
+      {
+        "text": "see now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a195a7f0-0209-4cd7-adb0-1c748ba443d5",
+    "data": [
+      {
+        "text": "view events",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "483a67a9-e6fc-4c2f-a251-15fcf36ca2f6",
+    "data": [
+      {
+        "text": "I want to see what you have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf91a085-cc2a-44b5-929f-d1fef4fb045b",
+    "data": [
+      {
+        "text": "what\u0027s going on now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8cc896ae-0491-4c3f-b8a5-e9793058cddc",
+    "data": [
+      {
+        "text": "current events",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ee5388d-0009-4305-83cd-3e6ac0da7261",
+    "data": [
+      {
+        "text": "See what\u0027s on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

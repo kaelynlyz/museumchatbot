@@ -1,0 +1,66 @@
+{
+  "id": "2aa3d351-dade-45b9-94fb-b060e83d8b41",
+  "name": "BookVisit.TypeName",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookVisit",
+      "affectedContexts": [
+        {
+          "name": "session-vars",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "219fa567-cb4f-479e-973d-550377eb0baa",
+          "name": "name_event",
+          "required": false,
+          "dataType": "@Eventname",
+          "value": "$name_event",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b86b0812-62d3-4fbf-9b40-2d4a34653bba",
+          "name": "type_event",
+          "required": false,
+          "dataType": "@Type",
+          "value": "$type_event",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

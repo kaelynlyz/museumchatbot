@@ -1,0 +1,54 @@
+{
+  "id": "38db0907-9f78-4f8e-919f-937515893ab7",
+  "name": "Input.visit_date",
+  "auto": true,
+  "contexts": [
+    "awaiting_visit_date"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Input.visit_date",
+      "affectedContexts": [
+        {
+          "name": "awaiting_number_person",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8a92bf05-4d29-4d24-9e13-870019289ae5",
+          "name": "visit_date",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$visit_date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

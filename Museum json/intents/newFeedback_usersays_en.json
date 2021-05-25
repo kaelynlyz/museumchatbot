@@ -1,0 +1,106 @@
+[
+  {
+    "id": "49cfd9fd-eb67-4d7a-84a4-3d7533dd28cf",
+    "data": [
+      {
+        "text": "leave comment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "de0ab911-6c98-4054-bfde-d776b0642604",
+    "data": [
+      {
+        "text": "leave a feedback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eaa27463-f7b9-4195-a4b5-db24695c259f",
+    "data": [
+      {
+        "text": "make comment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fee6125a-8c24-4246-b139-a854e062f71b",
+    "data": [
+      {
+        "text": "comment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0e09f753-f3aa-48d7-b54e-bbdef9720fdb",
+    "data": [
+      {
+        "text": "feedback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b558131e-955e-4bc0-95f3-312af41ff18e",
+    "data": [
+      {
+        "text": "make a feedback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "affad844-1d39-410b-b63c-266f26c1c00b",
+    "data": [
+      {
+        "text": "I want to leave feedback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e72b4cad-03fa-4551-a9f9-a726fa3bb674",
+    "data": [
+      {
+        "text": "I want to make feedback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

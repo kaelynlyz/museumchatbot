@@ -1,0 +1,54 @@
+{
+  "id": "61a226ec-5b2f-4031-b4be-abe413c7e564",
+  "name": "Input.number_person",
+  "auto": true,
+  "contexts": [
+    "awaiting_number_person"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Input.number_person",
+      "affectedContexts": [
+        {
+          "name": "awaiting_visitor_name",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ae6fe573-926d-4f7a-89fd-6565c95897df",
+          "name": "number_person",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number_person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

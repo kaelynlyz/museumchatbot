@@ -1,0 +1,57 @@
+{
+  "id": "46face7c-8615-475f-a202-d2e326318ff2",
+  "name": "Input.fb_phone",
+  "auto": true,
+  "contexts": [
+    "awaiting_fb_phone"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting_fb_email",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "62ef1c8e-d8d7-4b7a-94cf-2e1bafab49aa",
+          "name": "fb_phone",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$fb_phone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What\u0027s your email?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

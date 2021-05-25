@@ -1,0 +1,40 @@
+[
+  {
+    "value": "water colour",
+    "synonyms": [
+      "water colour",
+      "water color",
+      "watercolour",
+      "watercolor"
+    ]
+  },
+  {
+    "value": "oil painting",
+    "synonyms": [
+      "oil painting"
+    ]
+  },
+  {
+    "value": "sculptures",
+    "synonyms": [
+      "sculptures",
+      "sculpture"
+    ]
+  },
+  {
+    "value": "Chinese",
+    "synonyms": [
+      "Chinese",
+      "chinese painting",
+      "chinese paintings"
+    ]
+  },
+  {
+    "value": "Western",
+    "synonyms": [
+      "Western",
+      "western art",
+      "western paintings"
+    ]
+  }
+]

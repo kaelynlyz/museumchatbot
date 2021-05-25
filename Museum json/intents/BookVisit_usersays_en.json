@@ -1,0 +1,41 @@
+[
+  {
+    "id": "9b561169-3a9b-41a4-941c-69e762a888e0",
+    "data": [
+      {
+        "text": "book visit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea4bafcb-35de-4651-bfe4-ac6642c5b8d3",
+    "data": [
+      {
+        "text": "book appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2ed57576-7364-4df1-b079-101c17bd01ba",
+    "data": [
+      {
+        "text": "I want to book a visit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

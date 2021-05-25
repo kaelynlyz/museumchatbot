@@ -1,0 +1,52 @@
+{
+  "id": "13ec6229-6ec2-468c-ad2b-dbbea3fec693",
+  "name": "BookVisit.number_person",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bookVisit",
+      "affectedContexts": [
+        {
+          "name": "session-vars",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "60549831-90ef-40e0-8b08-f4d9d7ec32d6",
+          "name": "number_person",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number_person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
